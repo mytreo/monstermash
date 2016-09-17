@@ -28,7 +28,7 @@ $config = [
             // for the mailer to send real emails.
             'useFileTransport' => true,
         ],
-        view => [
+        'view' => [
             'class' => 'app\components\View'
         ],
         'log' => [
